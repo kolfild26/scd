@@ -1,0 +1,18 @@
+package ru.sportmaster.scd.mementity;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+import lombok.experimental.SuperBuilder;
+
+@SuperBuilder
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
+public class MemEntityFetchTopicMessage extends MemEntityTopicMessage {
+    private MemEntityFetchParams params;
+}

@@ -1,0 +1,13 @@
+package ru.sportmaster.scd.dto.adjustment;
+
+public enum ValidationError {
+    FIELD_NOT_FOUND,
+    CELL_VALUE_NOT_FOUND,
+    CELL_TYPE_NOT_VALID,
+    INTAKE_AFTER_EXIT_DATE,
+    STORE_OPEN_AFTER_CLOSE_DATE,
+    REPL_PERIOD_MULT_WEEK,
+    REPL_START_END_DATE,
+    COEF_WSS_ALLOCATION,
+    ONLY_POSITIVE_VALUE
+}
